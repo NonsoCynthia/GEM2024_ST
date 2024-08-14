@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#SBATCH --gres=gpu:a100:1 --nodelist=g129
+#SBATCH -p compute
+#SBATCH -J jjj
+#SBATCH -t 1-23:59:59
+
+
+source /home/cosuji/anaconda3/etc/profile.d/conda.sh
+conda activate bnb2
+
+python3 gpt_str.py

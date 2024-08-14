@@ -5,13 +5,11 @@ import argparse
 #import pytorch_lightning as pl
 from torch.utils.data import Dataset, DataLoader
 from datasets import load_dataset, DatasetDict, Dataset
-from load_dataset import  preprocess_data_
-from data.load_dataset import CustomDataset, preprocess_data, realize_date
+from load_dataset import  preprocess_data
+#from data.load_dataset import CustomDataset, preprocess_data, realize_date
 from T5 import T5_Model
-from torchmetrics.classification import StatScores
 import nltk
 from nltk.translate.bleu_score import corpus_bleu, SmoothingFunction
-from mapping import entity_mapping, prcs_entry, delist, split_triples
 
 class CustomDataset(torch.utils.data.Dataset):
     def __init__(self, data_input):
@@ -50,7 +48,8 @@ class Inferencer:
 
             # Predict
             output = self.model([source])
-            result['pred'] = output[0].strip()
+            result['pred'] = output[0].replace('\n', ' ').strip()
+            #print(batch_idx, output[0].replace('\n', ' ').strip())
 
             # Display evaluation progress
             if (batch_idx + 1) % self.batch_status == 0:
@@ -112,21 +111,28 @@ if __name__ == '__main__':
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     write_path = os.path.join(args.model_path, args.task)
 
-    # Create model
-    # /home/cosuji/spinning-storage/cosuji/NLG_Exp/webnlg/results/ordering/model
-    model_path = os.path.join(model_path, f"{task}/model")
-    generator = T5_Model(tokenizer_path, model_path, max_length, sep_token=task + ":")
+    # Create model path
+    if "t5" in tokenizer_path.lower():
+        mod = 't5'
+    elif "ul2" in tokenizer_path.lower():
+        mod = 'ul2'
+    else:
+        raise Exception("Invalid model")
 
+    model_paths = f"/home/cosuji/spinning-storage/cosuji/NLG_Exp/gem/pipe_results/{task}/t5/model"
+    generator = T5_Model(tokenizer_path, model_paths, max_length, sep_token=task+":")
 
-    dataset_dict = preprocess_data(data_path, task, mod)
-    evaluation = {
-        f"{task}_dev": dataset_dict["validation"],
-        f"{task}_test": dataset_dict["test"],
-        f"{task}_pipeline_eval": dataset_dict["pipeline_eval"],
-        f"{task}_pipeline_test": dataset_dict["pipeline_test"],  # Note: Assuming this is intentional
-    }
+    file_task = ["factual", "fictional", "counterfactual", "simon"]
+
+    if "gem_data" in data_path:
+        dataset_dict = preprocess_data(data_path, task)
+        evaluation = {f"{ft}_{task}": dataset_dict[ft] for ft in file_task}
+    else:
+        raise ValueError("The path provided is not for inference")
 
     for dataset_name, dataset in evaluation.items():
+        #print(dataset_name, dataset[0])
         inf = Inferencer(generator, dataset, dataset_name, batch_status, write_path, verbose)
-        print(f"Evaluating {dataset_name} dataset:")
-        inf.evaluate()
+        if dataset_name == f"simon_{task}":
+            print(f"Evaluating {mod} {dataset_name} dataset:")
+            inf.evaluate()

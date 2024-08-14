@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#SBATCH --gres=gpu:a100:2 --nodelist=g129
+#SBATCH -p long
+#SBATCH -J train_
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=30000
+#SBATCH -t 9-23:59:59
+
+
+source /home/cosuji/anaconda3/etc/profile.d/conda.sh
+conda activate bnb
+
+python ../peft_train.py

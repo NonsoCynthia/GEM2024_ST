@@ -1,0 +1,205 @@
+{
+    "os": "Linux-5.10.0-0.deb10.27-amd64-x86_64-with-glibc2.28",
+    "python": "3.10.13",
+    "heartbeatAt": "2024-03-27T10:59:16.455749",
+    "startedAt": "2024-03-27T10:59:15.717886",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/spinning/cosuji/NLG_Exp/gem/jobs/../peft_train.py",
+    "codePathLocal": null,
+    "host": "g129",
+    "username": "cosuji",
+    "executable": "/home/cosuji/anaconda3/envs/bnb/bin/python",
+    "cpu_count": 16,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 953.8550000000001,
+        "min": 800.0,
+        "max": 3600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2087.353,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2100.0,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1539.901,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1236.912,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 814.379,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 800.677,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 800.302,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 801.022,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 801.191,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 800.754,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 800.703,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 801.132,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 800.426,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 800.768,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 800.759,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 800.75,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1766.366,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2100.0,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1603.736,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1180.021,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 824.87,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 800.87,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 800.272,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 801.184,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 800.531,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 800.784,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 801.54,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 800.703,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 800.931,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 800.562,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 800.759,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 800.423,
+            "min": 800.0,
+            "max": 3600.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 68.74910736083984,
+            "used": 28.671947479248047
+        }
+    },
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "gpu_count": 2,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA A100-SXM4-80GB",
+            "memory_total": 85899345920
+        },
+        {
+            "name": "NVIDIA A100-SXM4-80GB",
+            "memory_total": 85899345920
+        }
+    ],
+    "memory": {
+        "total": 1007.555248260498
+    }
+}

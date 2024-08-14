@@ -2,11 +2,12 @@ import os
 import torch
 import argparse
 import numpy as np
+import random
 import torch.nn as nn
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import Dataset, DataLoader, ConcatDataset, Subset
 from datasets import load_dataset, DatasetDict, Dataset
 from load_dataset import preprocess_data_
-from data.load_dataset import preprocess_data, read_file, read_dict
+from data.load_dataset import preprocess_data, read_file
 from T5 import T5_Model
 from training import Trainer
 #import pytorch_lightning as pl
@@ -62,24 +63,48 @@ if __name__ == '__main__':
     # data_input_path = "~/spinning-storage/cosuji/NLG_Exp/gem/gem_data/"
 
     # Create model
-    if 't5' in tokenizer_path:
-        mod = 't5-large'
-        write_path = os.path.join(write_path, f"{task}/{mod}")
-        generator = T5_Model(tokenizer_path, model_path, max_length, sep_token=task+":")
+    if "t5" in tokenizer_path.lower():
+        mod = 't5'
+    elif "ul2" in tokenizer_path.lower():
+        mod = 'ul2'
     else:
         raise Exception("Invalid model")
 
-    if "gem_data" in data:
-        dataset_dict = preprocess_data_(data, task)
-        train_dataset = CustomDataset(dataset_dict["train"])
-        validation_dataset = dataset_dict["validation"]
-        inference_test = dataset_dict["inference_test"]
-    else:
-        mod = "t5-large"
-        dataset_dict = preprocess_data(data, task, mod)
-        train_dataset = CustomDataset(dataset_dict["train"])
-        validation_dataset = dataset_dict["validation"]
-        test_dataset = dataset_dict["test"]
+    #if "gem_data" in data:
+        #dataset_dict = preprocess_data_(data, task)
+        #train_dataset = CustomDataset(dataset_dict["train"])
+        #validation_dataset = dataset_dict["validation"]
+        #inference_test = dataset_dict["inference_test"]
+    #else:
+
+    dataset_dict = preprocess_data(data, task, mod)
+    train_data = dataset_dict["train"]
+    validation_dataset = dataset_dict["validation"]
+    test_dataset = dataset_dict["test"]
+
+    # Concatenate datasets
+    concatenated_dataset = ConcatDataset([train_data, validation_dataset, test_dataset])
+
+    # Shuffle the concatenated dataset
+    random.seed(42)
+    shuffled_indices = list(range(len(concatenated_dataset)))
+    random.shuffle(shuffled_indices)
+
+    # Split the shuffled dataset into train and validation datasets
+    tr_size = int(len(concatenated_dataset) * 0.8)
+    train_indices = shuffled_indices[:tr_size]
+    validation_indices = shuffled_indices[tr_size:]
+
+    train_dataset = Subset(concatenated_dataset, train_indices)
+    validation_dataset = Subset(concatenated_dataset, validation_indices)
+
+    # Wrap the train dataset with CustomDataset
+    train_dataset = CustomDataset(train_dataset)
+    
+    
+    ##Initialize the models
+    write_path = os.path.join(write_path, f"{task}/{mod}")
+    generator = T5_Model(tokenizer_path, model_path, max_length, sep_token=task+":")
 
     # Create data loader
     trainloader = DataLoader(train_dataset, batch_size=train_batch_size, shuffle=True)#, collate_fn=lambda x:x) #num_workers=10

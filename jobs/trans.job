@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#SBATCH --gres=gpu:a100:1 --nodelist=g129
+#SBATCH -p long
+#SBATCH -J Trax
+#SBATCH -t 9-23:59:59
+
+
+source /home/cosuji/anaconda3/etc/profile.d/conda.sh
+conda activate bnb2
+
+dataset="/home/cosuji/spinning-storage/cosuji/NLG_Exp/gem/results"
+dbrx="SinclairSchneider/dbrx-instruct-quantization-fixed"
+cmdr="CohereForAI/c4ai-command-r-plus-4bit"
+shot=0
+
+echo "$shot shot prompting on translate Started!!!"
+
+# # Edit this jobs for each shot
+python3 ../translate.py --model "$cmdr" \
+                    	--shot "$shot" \
+                    	--data_path "$dataset"
+    
+echo "$shot shot translation ended!!!"

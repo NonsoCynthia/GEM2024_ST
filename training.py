@@ -128,3 +128,65 @@ class Trainer(nn.Module):
         chencherry = SmoothingFunction()
         bleu = corpus_bleu(references, hypothesis, smoothing_function=chencherry.method3)
         return bleu
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument("--tokenizer", help="path to the tokenizer")
+    parser.add_argument("--model_path", help="path to the model")
+    parser.add_argument("--task", help="Traing task")
+    parser.add_argument("--data_path", help="path to the data")
+    parser.add_argument("--batch_size", help="batch size of test", type=int)
+    parser.add_argument("--max_length", help="maximum length to be processed by the network", type=int)
+    parser.add_argument("--verbose", help="should display the loss?", action="store_true")
+    parser.add_argument("--batch_status", help="display of loss", type=int)
+    # parser.add_argument("--cuda", help="use CUDA", action="store_true")
+    args = parser.parse_args()   
+
+    # Model settings, Settings and configurations
+    tokenizer_path = args.tokenizer
+    model_path = args.model_path
+    task = args.task
+    data_path = args.data_path
+    batch_size = args.batch_size
+    max_length = args.max_length
+    verbose = args.verbose if 'verbose' in args else False
+    batch_status = args.batch_status
+    # device = torch.device('cuda' if args.cuda else 'cpu')
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    write_path = os.path.join(args.model_path, args.task)
+
+    # Create model
+    if "t5" in tokenizer_path.lower():
+        mod = 't5'
+    elif "ul2" in tokenizer_path.lower():
+        mod = 'ul2'
+    else:
+        raise Exception("Invalid model")
+
+    if "gem_data" in data:
+        dataset_dict = preprocess_data_(data, task)
+        train_dataset = CustomDataset(dataset_dict["train"])
+        validation_dataset = dataset_dict["validation"]
+        inference_test = dataset_dict["inference_test"]
+    else:
+        dataset_dict = preprocess_data(data, task, mod)
+        train_dataset = CustomDataset(dataset_dict["train"])
+        validation_dataset = dataset_dict["validation"]
+        test_dataset = dataset_dict["test"]
+    
+    ##Initialize the models
+    write_path = os.path.join(write_path, f"{task}/{mod}")
+    generator = T5_Model(tokenizer_path, model_path, max_length, sep_token=task+":")
+
+    # Create data loader
+    trainloader = DataLoader(train_dataset, batch_size=train_batch_size, shuffle=True)#, collate_fn=lambda x:x) #num_workers=10
+
+    # Create optimizer
+    optimizer = torch.optim.AdamW(generator.model.parameters(), lr=learning_rate)
+    
+    # Trainer settings
+    trainer = Trainer(generator, trainloader, validation_dataset, optimizer, epochs, batch_status, write_path, early_stop, verbose)
+
+    # Train the model
+    trainer.train()

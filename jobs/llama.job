@@ -1,0 +1,48 @@
+#!/bin/bash
+
+#SBATCH --gres=gpu:a100:1 --nodelist=g128
+#SBATCH -p long
+#SBATCH -J Llm-mis
+#SBATCH -t 9-23:59:59
+
+
+source /home/cosuji/anaconda3/etc/profile.d/conda.sh
+conda activate ntorch
+
+#dataset="/home/cosuji/spinning-storage/cosuji/NLG_Exp/gem/data/deepnlg"
+#write_path="/home/cosuji/spinning-storage/cosuji/NLG_Exp/gem/pipe_results"
+dataset="/home/cosuji/spinning-storage/cosuji/NLG_Exp/gem/gem_data/"
+write_path="/home/cosuji/spinning-storage/cosuji/NLG_Exp/gem/results"
+
+llama270_chat="meta-llama/Llama-2-70b-chat-hf"
+falcon40b="tiiuae/falcon-40b-instruct"
+falcon7b="tiiuae/falcon-7b-instruct"
+llama270b="meta-llama/Llama-2-70b-hf"
+mistral="mistralai/Mistral-7B-Instruct-v0.2"
+llama27b_chat="meta-llama/Llama-2-7b-chat-hf"
+zephyr="HuggingFaceH4/zephyr-7b-gemma-v0.1"
+vicuna="lmsys/vicuna-7b-v1.5"
+gemma="google/gemma-7b"
+solar="upstage/SOLAR-10.7B-Instruct-v1.0"
+phi="microsoft/phi-2"
+olmo="allenai/OLMo-7B"
+gpt4="gpt-4"
+finetuned="/home/cosuji/spinning-storage/cosuji/NLG_Exp/gem/gem_outputs/checkpoint-10000"
+
+model_type="base" 
+#model_type="fine_tuned"
+
+
+# # Edit this jobs for each task
+#for shot in 5 0; do 
+echo "$shot shot prompting on $phi Started!!!"
+    
+ python3 ../prompt.py --model "$phi" \
+			--model_type "$model_type" \
+			--model_name "phi" \
+                    	--shot "5" \
+                    	--data_path "$dataset" \
+                    	--write_path "$write_path"
+    
+    echo "$shot shot generation on $phi ended!!!"
+#done

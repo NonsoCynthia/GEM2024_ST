@@ -1,0 +1,1779 @@
+nickname ground location league country
+birthDate occupation
+city
+height club ground
+leaderTitle governmentType populationDensity populationMetro
+precededBy followedBy
+country leaderTitle populationDensity elevationAboveTheSeaLevel timeZone
+deathDate
+deathPlace foundingDate areaTotal
+populationDensity
+birthDate
+areaCode
+municipality location established category hasToItsNorth hasToItsWest
+officialLanguage
+location operatingOrganisation elevationAboveTheSeaLevel
+foundingDate product
+location location manufacturer areaTotal
+genre precededBy precededBy
+campus country director affiliation
+birthPlace deathPlace ethnicGroup
+genre recordLabel recordLabel recordIn location recordTime
+publisher literaryGenre
+birthPlace award deathPlace
+followedBy record
+author publisher literaryGenre followedBy
+location industry
+editor runtime cinematography
+spouse deathDate
+residence party
+nationality birthPlace country language
+location
+genre recordLabel recordLabel author
+starring musicComposer author
+origin activeYearsStartYear genre instrument associatedBand/associatedMusicalArtist
+established location category hasToItsSoutheast hasToItsWest
+genre genre recordLabel releaseDate
+governmentType leaderTitle populationMetro populationDensity utcOffset
+starring starring director budget
+influencedBy
+starring author
+region country mainIngredient dishVariation currency demonym
+leaderTitle city populationDensity
+location country operatingOrganisation city runwayLength
+course ingredient country currency
+periapsis epoch
+populationDensity timeZone
+numberOfEmployees netIncome
+creator broadcastedBy lastAired
+course region country demonym currency
+followedBy artist
+birthDate birthPlace deathPlace
+engine length cylinderCount
+birthName birthDate deathPlace
+author precededBy literaryGenre releaseDate
+recordLabel followedBy creator author
+followedBy precededBy record releaseDate time
+municipality location country category hasToItsSoutheast
+birthPlace nationality deathPlace deathDate
+city country operatingIncome operatingIncome regionServed
+discoverer discovered orbitalPeriod apoapsis
+country leaderTitle elevationAboveTheSeaLevel utcOffset
+isPartOf utcOffset
+spouse
+fullName numberOfMembers league champions
+course region country
+genre recordIn recordIn
+utcOffset
+associatedBand/associatedMusicalArtist artist
+birthPlace isPartOf mission
+height youthclub ground
+assembly assembly productionEndYear
+areaTotal
+musicComposer director releaseDate runtime
+location
+profession
+musicComposer
+broadcastedBy city lastAired creator starring
+builder buildDate
+numberOfMembers league champions
+starring
+director
+genre followedBy recordLabel releaseDate
+followedBy musicalArtist certification producer
+operatingOrganisation elevationAboveTheSeaLevel runwayName runwayLength
+genre
+nationality ethnicGroup
+followedBy
+completionDate owner
+genre recordIn recordLength
+dishVariation course country demonym currency
+timeZone
+distributor distributor type
+nationality
+established category location hasToItsSouthwest
+precededBy releaseDate timeruntime author
+isPartOf leader
+course country mainIngredient currency
+professionalField
+country leader
+birthPlace
+birthName almaMater knownFor
+almaMater professionalField
+producer
+genre associatedBand/associatedMusicalArtist
+origin associatedBand/associatedMusicalArtist genre instrument
+city broadcastedBy firstAired creator starring
+location country currentTenants architect buildingStartDate address
+location nativeName
+musicSubgenre
+birthName birthPlace birthDate almaMater knownFor
+starring gross
+established location country category hasToItsNorth
+starring broadcastedBy city lastAired
+activeYearsStartYear director activeYearsEndYear author deathYear
+creator broadcastedBy
+leaderTitle
+postalCode
+keyPerson location foundingDate numberOfEmployees product
+birthDate youthclub ground
+nationality birthPlace birthDate
+demonym
+starring author runtime
+birthYear director author deathDate
+starring cinematography
+birthDate almaMater deathDate
+foundingDate
+birthYear debutTeam
+literaryGenre
+spouse deathPlace ethnicGroup
+municipality location established category hasToItsSouthwest
+director creator
+architect location owner currentTenants address
+starring director runtime
+populationDensity
+deathPlace areaTotal
+broadcastedBy musicComposer director producer
+broadcastedBy city creator starring
+location operatingOrganisation
+runwayName
+assembly areaTotal
+birthPlace birthDate
+campus numberOfStudents numberOfPostgraduateStudents numberOfDoctoralStudents
+location numberOfLocations
+orbitalPeriod discovered apoapsis
+ground location numberOfMembers league country season
+birthPlace deathPlace
+governmentType
+residence leaderTitle
+genre followedBy releaseDate
+birthPlace deathPlace
+genre followedBy releaseDate
+followedBy recordLabel creator
+nationality spouse
+leader
+nationality birthDate
+residence residence governmentType
+genre
+activeYearsStartYear genre associatedBand/associatedMusicalArtist
+state location hasToItsSoutheast
+musicComposer editor releaseDate author
+municipality location established category hasToItsSoutheast hasToItsWest
+genre instrument associatedBand/associatedMusicalArtist
+publisher followedBy literaryGenre
+director director broadcastedBy editor musicComposer runtime
+birthDate height club ground currentclub
+owner buildingStartDate completionDate address currentTenants architect
+precededBy recordLabel recordLabel
+director director producer production time
+location owner currentTenants
+recordLabel
+director director imdbId
+director editor production date
+genre musicFusionGenre
+birthPlace birthDate almaMater deathPlace
+birthPlace deathDate
+owner address location architect currentTenants
+isPartOf country areaTotal
+stylisticOrigin
+artist runtime
+director producer runtime
+birthPlace residence foundingDate leaderTitle
+recordIn production time
+isPartOf country populationMetro elevationAboveTheSeaLevel timeZone utcOffset
+birthYear author starring starring
+location country established
+creator
+genre genre releaseDate followedBy
+buildDate length cylinderCount
+leaderTitle timeZone populationDensity populationMetro
+deathPlace deathPlace longName
+birthPlace birthDate deathPlace nationality deathDate
+birthYear
+genre genre type followedBy runtime
+birthDate birthPlace nationality award deathPlace
+owner completionDate address currentTenants
+cityServed
+genre
+starring starring runtime grosses cinematography
+nationality birthPlace spouse party inOfficeWhilePresident
+season league champions
+nationality birthPlace spouse inOfficeWhilePresident successor
+numberOfDoctoralStudents staff
+activeYearsStartYear genre instrument associatedBand/associatedMusicalArtist
+manufacturer productionStartYear productionEndYear
+author
+genre stylisticOrigin
+residence residence areaOfWater motto
+birthPlace leaderTitle
+operatingOrganisation foundedBy
+birthPlace birthDate deathPlace deathDate
+sisterStation
+language recordedIn
+director editor production time
+nationality residence spouse deathDate
+deathDate
+editor production time
+assembly manufacturer productionStartYear areaTotal
+keyPerson
+award
+activeYearsStartYear starring starring
+precededBy runtime creator
+birthDate nationality influencedBy professionField knownFor
+starring language editing
+leader
+broadcastedBy
+distributor director director
+elevationAboveTheSeaLevel populationDensity
+genre precededBy followedBy runtime
+birthPlace height weight
+creator
+youthclub club
+musicComposer director editor production
+genre
+birthPlace starring broadcastedBy firstAired city
+genre precededBy karaoke_album time
+starring director producer
+fullName ground location league numberOfMembers
+location owner buildingStartDate address architecturalStyle currentTenants
+epoch discoverer orbitalPeriod rotationPeriod apoapsis periapsis
+genre stylisticOrigin stylisticOrigin
+residence residence governmentType
+deathPlace leader
+influencedBy professionField citizenship motto
+leaderTitle governmentType elevationAboveTheSeaLevel populationMetro populationDensity
+location operatingOrganisation city elevationAboveTheSeaLevel runwayName runwayLength
+youthclub height club manager
+location operatingOrganisation city country runwayName runwayLength
+instrument
+birthPlace deathPlace deathDate
+officialLanguage
+birthPlace leaderTitle
+campus affiliation wasGivenTheTechnicalCampusStatusBy location sportsOffered
+starring starring
+birthPlace starring
+discoverer discovered apoapsis absoluteMagnitude
+precededBy recordLabel recordLabel recordDate recordTime
+orbitalPeriod periapsis discovered apoapsis rotationPeriod
+deathYear
+birthPlace residence timeZone areaMetro
+genre followedBy
+birthPlace leader leader
+genre genre production manager The_Futureheads runtime
+genre musicFusionGenre
+parentCompany
+birthPlace professionField
+bodyStyle assembly assembly productionStartYear productionEndYear
+location industry
+birthPlace birthDate almaMater mission
+starring musicComposer editing runtime
+nationality birthPlace birthDate deathDate
+currentTenants buildingStartDate completionDate address location architect
+author
+musicComposer club
+followedBy
+starring starring director musicComposer runtime
+location hasToItsSouthwest
+director production cost runtime cinematography
+leader
+birthPlace birthDate nationality award deathPlace deathDate
+governmentType populationDensity utcOffset
+genre precededBy followedBy
+broadcastedBy musicComposer runtime director producer
+citizenship
+birthPlace deathPlace deathDate ethnicGroup
+distributor starring director runtime gross
+formerName broadcastedBy
+editor publisher
+discovered periapsis
+starring broadcastedBy city
+residence almaMater knownFor
+cityServed icaoLocationIdentifier
+origin genre instrument associatedBand/associatedMusicalArtist
+birthDate almaMater influencedBy
+country populationDensity timeZone timeZone
+birthPlace spouse deathPlace
+genre genre production time
+location operatingOrganisation elevationAboveTheSeaLevel runwayName runwayLength
+city affiliation sportsOffered
+course ingredient country currency
+numberOfUndergraduateStudents
+location ground league country season champions
+nationality birthDate professionField
+birthPlace birthPlace nationality deathPlace
+numberOfStudents
+status
+product media industry
+distributor starring gross
+birthDate youthclub club
+city president affiliation
+architect completionDate address currentTenants country
+birthPlace isPartOf mission COSparId
+leader recordIn recordedIn
+apoapsis orbitalPeriod absoluteMagnitude
+mission COSparId
+birthPlace doctoralAdvisor knownFor knownFor
+starring runtime
+recordLabel
+currency
+director starring director
+birthPlace birthDate height weight
+timeshiftChannel
+city country capital
+birthPlace starring starring birthDate
+musicComposer releaseDate runtime director producer
+country location hasToItsSoutheast category
+deathYear
+currentTenants location owner
+starring author
+foundedBy operatingOrganisation location ICAOLocationIdentifier postalCode
+birthPlace areaTotal
+birthPlace birthDate servedAsChiefOfTheAstronautOfficeIn award deathPlace
+director editor musicComposer releaseDate runtime
+birthDate birthPlace nationality deathPlace deathDate
+campus country
+precededBy's production time
+notableWork Time
+birthPlace professionCause knownFor knownFor
+type
+leaderTitle
+almaMater deathPlace foundingDate
+apoapsis
+genre artist runtime
+operatingOrganisation location cityServed runwayLength ICAOLocationIdentifier
+starring director writer budget
+associatedBand/associatedMusicalArtist
+distributor starring director director IdbId
+leaderTitle populationMetro
+starring filmography runtime gross
+builder buildDate length cylinderCount
+leader populationDensity
+city established
+stylisticOrigin
+epoch orbitalPeriod periapsis
+assembly isPartOf isPartOf manufacturer
+orbitalPeriod discoverer rotationPeriod apoapsis
+location operatingOrganisation city elevationAboveTheSeaLevel runwayName runwayLength
+nationality
+operatingOrganisation transportAircraft
+author literaryGenre
+isPartOf leaderTitle
+club musicComposer broadcastedBy timeshiftChannel
+birthDate
+foundingYear
+director starring starring musicComposer runtime gross
+instrument
+genre
+director editor musicComposer runtime
+nickname league country
+nationality birthPlace birthDate selectedByNasa award deathPlace
+genre production time
+currentTenants address location
+isPartOf
+owner buildingStartDate address architecturalStyle currentTenants country
+location operatingOrganisation runwayLength elevationAboveTheSeaLevel
+president affiliation campus wasGivenTheTechnicalCampusStatusBy location
+birthPlace deathPlace foundingDate leaderTitle
+nationality residence areaTotal leaderTitle
+birthPlace isPartOf
+numberOfMembers league country season
+birthDate residence residence
+nationality birthPlace nationality
+genre recordLabel musicalBand
+followedBy
+birthPlace birthDate deathDate residence
+location country operatingOrganisation elevationAboveTheSeaLevel runwayName runwayLength
+champions league numberOfMembers ground location season
+campus country president affiliation
+birthDate
+headquarter owner broadcastedBy producer creator
+birthPlace birthDate mission
+residence
+category location hasToItsSouthwest
+leader demonym currency country course region mainIngredient
+country course dishVariation
+assembly assembly manufacturer parentCompany
+birthDate deathDate
+residence areaTotal
+orbitalPeriod rotationPeriod discoverer apoapsis absoluteMagnitude
+genre recordLabel releaseDate musicalBand runtime
+birthPlace birthDate deathPlace
+recordLabel location location
+campus affiliation wasGivenTheTechnicalCampusStatusBy location established
+almaMater knownFor
+country populationDensity
+municipality location category hasToItsSoutheast
+established campus wasGivenTheTechnicalCampusStatusBy city founder director
+cinematography
+location operatingOrganisation elevationAboveTheSeaLevel icaoLocationIdentifier
+production runtime
+director broadcastedBy
+publisher precededBy literaryGenre followedBy
+nationality birthPlace birthPlace birthDate mission
+recordLabel recordLabel recordDate releaseDate
+birthDate influencedBy
+birthPlace birthDate residence
+location runwayName runwaySurfaceType areaCode
+genre genre
+location operatingOrganisation city country elevationAboveTheSeaLevel
+residence residence timeZone UTC03:30
+followedBy
+architect location owner currentTenants
+precededBy followedBy runtime
+production director editor cinematography releaseDate
+architect completionDate owner currentTenants
+currency
+birthDate birthPlace
+birthPlace timeZone weight
+owner currentTenants country
+birthDate birthPlace nationality occupation selectedByNasa deathPlace
+recordLabel
+municipality location established category hasToItsSouthwest hasToItsSoutheast
+leader country
+established category location state hasToItsNorth
+cityServed location operatingOrganisation elevationAboveTheSeaLevel runwayLength runwaySurfaceType ICAOLocationIdentifier
+dishVariation course region country ingredient demonym currency
+operatingOrganisation location runwayLength
+leaderTitle
+birthPlace deathPlace senators
+birthPlace isPartOf areaTotal
+deathPlace officialLanguage
+keyPerson recordLabel recordLabel
+birthPlace birthDate nationality populationDensity
+professionalField
+production runtime
+genre associatedBand/associatedMusicalArtist
+recordLabel recordLabel musicalBand
+birthPlace residence
+genre genre precededBy author timereleaseDate
+keyPerson parentCompany operating_industry subsidiary subsidiary
+residence leader
+birthPlace birthDate nationality deathPlace deathDate
+recordLabel followedBy followedBy
+author author
+utcOffset recordedIn recordedIn areaTotal
+dishVariation course country currency
+genre genre musicSubgenre musicSubgenre
+assembly language
+genre recordLabel recordLabel runtime
+birthPlace governmentType
+demonym
+owner address architecturalStyle currentTenants
+birthDate club manager
+releaseDate
+discoverer apoapsis absoluteMagnitude
+operatingOrganisation runwayName
+genre genre followedBy time
+recordLabel recordLabel followedBy followedBy
+professionalField
+genre precededBy author releaseDate
+leaderParty location foundingDate product
+birthDate
+region country
+almaMater influencedBy professionFactor knownFor
+distributor starring runtime
+location hasToItsWest
+recordLabel recordLabel owner
+birthDate deathDate
+owner
+nationality residence spouse deathDate
+city country leaderTitle utcOffset populationDensity populationMetro
+birthPlace nationality spouse inOfficeWhilePresident deathPlace
+knownFor
+director musicComposer runtime
+location operatingOrganisation runwayLength
+leader
+nationality birthDate
+discovered periapsis apoapsis absoluteMagnitude
+nationality birthPlace spouse
+birthDate almaMater
+director editor
+recordLabel recordLabel producer
+residence almaMater
+genre
+operatingOrganisation icaoLocationIdentifier
+language
+nationality birthPlace birthPlace
+nationality birthPlace birthDate spouse
+height weight
+director imdbId
+isPartOf
+broadcastedBy musicComposer musicComposer broadcastedBy editor director producer
+professionalField
+city established affiliation
+genre precededBy followedBy
+deathPlace populationDensity
+populationTotal
+birthPlace birthDate deathDate
+discoverer deathDate orbitalPeriod rotationPeriod
+genre precededBy recordLabel
+country leaderTitle
+height birthPlace
+precededBy recordLabel recordLabel recordedIn
+birthDate residence timeZone timeZone citizenship
+genre creator
+director director producer
+genre precededBy runtime producer
+length totalProduction
+residence leader
+birthPlace birthPlace country
+municipality location category hasToItsSoutheast hasToItsNorth
+nationality mission
+director runtime
+isdbId
+leader
+campus country numberOfUndergraduateStudents numberOfStudents numberOfDoctoralStudents
+production director writer cinematography releaseDate
+precededBy followedBy
+established location country category hasToItsNorth hasToItsWest hasToItsSoutheast
+campus affiliation wasGivenTheTechnicalCampusStatusBy city founder director
+ground location league country numberOfMembers nickname champions
+genre associatedBand/associatedMusicalArtist
+birthPlace birthDate deathDate residence
+birthDate youthclub club currentclub
+isPartOf
+foundingDate numberOfEmployees product
+genre followedBy recordLabel recordLabel
+followedBy record genre author production_team
+producer
+location operatingOrganisation city country runwayName runwayLength
+formerName
+nationality birthPlace
+timeZone
+location operatingOrganisation icaoLocationIdentifier
+birthPlace birthName deathDate
+starring director runtime gross
+birthPlace spouse successor ethnicGroup
+literaryGenre
+course country
+birthPlace weight
+activeYearsStartYear editor director runtime
+epoch orbitalPeriod discovered periapsis apoapsis rotationPeriod
+birthPlace mission
+isPartOf
+discovered epoch orbitalPeriod periapsis absoluteMagnitude
+location operatingOrganisation city country runwayName runwayLength
+birthPlace spouse successor
+productionStartYear bodyStyle
+buildDate engine cylinderCount length
+birthPlace ethnicGroup spouse deathPlace
+numberOfUndergraduateStudents numberOfStudents numberOfDoctoralStudents staff
+deathPlace
+distributor starring author imdbId
+genre music_of_Israel genre creator precededBy releaseDate runtime
+musicalBand
+genre
+architect location currentTenants
+dishVariation country
+followedBy followedBy producer
+birthPlace birthPlace region gridReference
+campus established affiliation
+campus city
+foundationPlace foundationPlace type
+followedBy releaseDate
+builder cylinderCount
+birthPlace almaMater doctoralAdvisor academicDiscipline knownFor academicDiscipline
+spouse
+starring director starring musicComposer runtime gross
+birthPlace birthPlace elevationAboveTheSeaLevel currency
+timeZone
+discovered rotationPeriod periapsis
+imdbId
+precededBy recordedIn
+leader
+influencedBy nationality knownFor
+leader populationDensity timeZone
+owner buildingStartDate address location currentTenants architect
+nationality birthPlace birthPlace mission
+areaCode
+birthPlace isPartOf isPartOf mission
+professionalField knownFor
+precededBy genre type time
+birthPlace almaMater knownFor deathDate
+genre artist
+birthPlace birthPlace nationality desolutionYear gridReference
+birthDate doctoralAdvisor notableFor doctoralField knownFor
+distributor
+genre musicSubgenre
+birthPlace
+anthem musicSubgenre
+city isPartOf country leaderTitle elevationAboveTheSeaLevel populationDensity timeZone
+director musicComposer author runtime
+starring starring language distributor runtime editor
+campus numberOfUndergraduateStudents staff
+buildDate engine length
+recordLabel precededBy genre recordLabel
+broadcastedBy musicComposer editor
+birthPlace almaMater professionField linguistics
+campus city numberOfUndergraduateStudents numberOfStudents numberOfDoctoralStudents staff
+successor
+genre followedBy
+origin activeYearsStartYear associatedBand/associatedMusicalArtist genre
+birthPlace knownFor
+foundingYear
+birthPlace utcOffset occupation
+established location country category hasToItsSouthwest hasToItsSoutheast hasToItsNorth
+orbitalPeriod discoverer discovered periapsis apoapsis absoluteMagnitude
+operatingOrganisation runwayName
+birthDate weight
+isPartOf country populationDensity areaTotal
+demonym
+location state established
+populationMetro
+musicComposer director producer
+location elevationAboveTheSeaLevel runwayLength ICAOLocationIdentifier
+genre
+precededBy
+staff
+numberOfMembers league
+location icaoLocationIdentifier
+office spouse
+nationality occupation
+precededBy recordIn releaseDate runtime
+birthDate knownFor
+director
+recordLabel location precededBy precededBy
+genre genre creator
+location operatingOrganisation elevationAboveTheSeaLevel
+ICAOLocationIdentifier elevationAboveTheSeaLevel runwayName
+populationDensity timeZone timeZone
+discoverer discovered apoapsis rotationPeriod periapsis
+isPartOf isPartOf leaderTitle
+birthPlace starring
+height birthDate club manager
+precededBy genre genre author releaseDate runtime
+followedBy recordLabel releaseDate
+region country ingredient dishVariation course demonym currency
+birthPlace birthDate deathPlace deathDate nationality birthPlace
+publisher precededBy literaryGenre releaseDate followedBy
+ground location numberOfMembers league country champions manager
+municipality location state established category hasToItsSoutheast hasToItsNorth
+director musicComposer editing deathYear
+genre followedBy releaseDate
+birthDate birthPlace nationality servedAsChiefOfTheAstronautOfficeIn award deathPlace
+location product
+region
+precededBy precededBy runtime
+nationality residence residence award
+starring starring musicComposer runtime editor
+location operatingOrganisation cityServed runwayLength runwaySurfaceType ICAOLocationIdentifier
+birthPlace birthPlace
+religion
+season league champions
+genre recordLabel recordLabel
+deathPlace country
+artist
+director author
+municipality location country category hasToItsSoutheast hasToItsNorth
+completionDate owner currentTenants
+birthPlace birthDate deathDate
+birthYear
+cityServed location country postalCode
+dishVariation course region country demonym currency
+cinematography
+musicComposer production date runtime
+isPartOf country populationMetro utcOffset governmentType
+epoch discoverer orbitalPeriod periapsis
+musicalArtist
+leaderTitle
+activeYearsStartYear
+broadcastedBy lastAired
+nationality birthPlace foundingDate occupation
+campus country affiliation wasGivenTheTechnicalCampusStatusBy location
+dishVariation course country currency
+municipality location state category hasToItsSoutheast hasToItsNorth
+birthPlace populationTotal
+location location leaderTitle product protein-bound_paclitaxel
+birthPlace creator starring broadcastedBy city
+leaderTitle
+utcOffset
+precededBy recordIn recordedIn releaseDate runtime
+followedBy releaseDate
+campus director affiliation city wasGivenTheTechnicalCampusStatusBy
+precededBy author releaseDate runtime
+municipality location established hasToItsSoutheast
+genre precededBy genre runtime
+birthPlace
+director editor broadcastedBy
+municipality location state country established category hasToItsNorth
+genre precededBy genre time
+director editor producer
+currentTenants address location architect completionDate
+genre precededBy recordIn recordedIn releaseDate runtime
+citizenship
+currentTenants location
+areaTotal
+birthDate award officialLanguage capital
+birthDate residence nationality influencedBy occupation knownFor
+recordIn artist producer
+birthPlace birthDate deathDate nationality residence spouse
+birthPlace birthDate deathPlace deathDate
+genre recordLabel
+municipality location country established category hasToItsSoutheast
+associatedBand/associatedMusicalArtist producer
+dishVariation country
+governmentType populationDensity utcOffset
+governmentType
+creator broadcastedBy starring
+starring director
+author isdbId
+birthName
+birthDate club ground
+author precededBy
+birthDate musicComposer
+keyPerson
+genre musicSubgenre
+cost runtime gross
+utcOffset
+municipality location established category hasToItsSouthwest hasToItsNorth
+weight
+country
+musicComposer director production cinematography
+nationality birthPlace birthDate birthPlace residence deathDate
+precededBy runtime creator producer
+assembly assembly manufacturer productionStartYear productionEndYear bodyStyle
+numberOfStudents numberOfDoctoralStudents staff
+municipality location country established category hasToItsSouthwest hasToItsSoutheast
+demonym country residence utcOffset
+leaderTitle governmentType populationMetro
+birthDate producer!!!
+location operatingOrganisation runwayLength
+genre genre artist
+distributor distributor language editor runtime budget
+birthDate residence demonym populationTotal
+starring starring language editing
+activeYearsStartYear genre associatedBand/associatedMusicalArtist
+nationality birthPlace birthDate almaMater servedAsChiefOfTheAstronautOfficeIn deathPlace
+nationality birthPlace
+birthDate birthPlace nationality servedAsChiefOfTheAstronautOfficeIn deathPlace
+production time artist
+numberOfMembers league season
+starring film director grossed
+campus numberOfStudents
+course ingredient country demonym currency
+genre precededBy recordIn recordIn country time
+distributor isdbId director director
+birthPlace birthDate doctoralAdvisor profession
+director runtime
+elevationAboveTheSeaLevel runwaySurfaceType icaoLocationIdentifier
+apoapsis absoluteMagnitude
+ethnicGroup birthPlace party spouse
+height birthDate
+associatedBand/associatedMusicalArtist producer
+city foundedBy broadcastedBy creator starring
+birthPlace nationality officialLanguage areaTotal
+ground location numberOfMembers league country season
+utcOffset
+genre followedBy runtime author The_Forester_Sisters
+campus state wasGivenTheTechnicalCampusStatusBy director affiliation
+birthPlace birthDate deathPlace
+campus affiliation wasGivenTheTechnicalCampusStatusBy director numberOfPostgraduateStudents
+birthPlace doctoralAdvisor
+followedBy genre album title
+distributingLabel
+nationality birthPlace birthDate almaMater dateOfRetirement deathPlace
+address location country currentTenants
+assembly bodyStyle
+birthDate author
+precededBy genre
+location cityServed runwayLength
+followedBy producer
+discovered apoapsis
+populationDensity timeZone
+genre alternative_country instrument instrument
+recordIn recordArtist runtime
+discoverer apoapsis
+league season
+nationality deathDate
+author
+dishVariation course region country demonym currency
+genre runtime creator
+editing
+fullName league champions
+birthPlace
+precededBy producer
+campus state country affiliation
+populationTotal
+isPartOf
+country
+campus numberOfDoctoralStudents staff
+origin associatedBand/associatedMusicalArtist genre instrument
+birthPlace birthDate dateOfRetirement deathPlace
+genre genre
+location postalCode operatingOrganisation foundedBy
+producer
+birthPlace
+buildDate length engine powerType
+precededBy
+deathPlace
+keyPerson product
+birthDate doctoralAdvisor
+distributor distributor starring starring runtime
+precededBy genre karaoke_album time
+nationality birthPlace spouse
+operatingOrganisation location cityServed runwayLength
+birthPlace birthDate weight areaTotal foundingDate
+discoverer
+height birthPlace birthDate
+nationality leader
+starring
+followedBy
+birthPlace birthPlace officialLanguage currency
+league ground
+birthDate
+category location hasToItsWest
+instrument
+runwaySurfaceType icaoLocationIdentifier
+broadcastedBy editor director producer
+director director
+starring distributor distributor foundingYear
+country
+engine length cylinderCount
+birthDate
+areaTotal
+established state location category hasToItsNorth hasToItsWest hasToItsSoutheast
+youthclub club manager
+isPartOf city leaderTitle governmentType populationDensity populationMetro
+birthPlace birthDate almaMater doctoralAdvisor academicDiscipline knownFor Carter_constant
+starring starring distributor distributor
+musicSubgenre
+course country leader currency
+course region country leader demonym currency
+production runtime
+birthPlace professionField
+currentTenants location
+cylinderCount length
+birthPlace currency
+associatedBand/associatedMusicalArtist associatedBand/associatedMusicalArtist author
+precededBy releaseDate
+starring director starring runtime gross
+campus affiliation wasGivenTheTechnicalCampusStatusBy director academicStaffSize motto
+numberOfMembers league country season
+genre genre precededBy followedBy time
+engine length
+location operatingOrganisation cityServed elevationAboveTheSeaLevel runwayLength
+assembly assembly manufacturer productionStartYear productionEndYear
+nationality birthPlace birthDate
+birthPlace birthPlace mission
+fullName ground location league country season numberOfMembers
+bodyStyle manufacturer productionStartYear productionEndYear
+assembly
+foundedBy broadcastedBy
+musicComposer director
+genre followedBy followedBy
+nationality residence spouse
+debutTeam activeYearsStartYear
+musicComposer production editor runtime
+country
+city
+assembly areaTotal
+city broadcastedBy firstAired creator
+dishVariation course country ingredient demonym currency
+campus numberOfStudents numberOfDoctoralStudents
+birthPlace deathPlace deathDate
+birthPlace nationality deathDate
+recordLabel
+nationality birthPlace spouse party inOfficeWhilePresident
+assembly manufacturer bodyStyle
+firstAired starring
+birthDate
+format
+starring broadcastedBy city
+distributor series
+author publisher literaryGenre precededBy releaseDate followedBy
+leaderTitle elevationAboveTheSeaLevel populationDensity timeZone time_in_Iceland
+elevationAboveTheSeaLevel runwayName runwayLength icaoLocationIdentifier runwaySurfaceType
+birthPlace occupation deathPlace
+elevationAboveTheSeaLevel runwayName runwaySurfaceType
+owner architect buildingStartDate address architecturalStyle currentTenants
+location operatingOrganisation city elevationAboveTheSeaLevel
+owner buildingStartDate address location currentTenants country architect
+location operatingOrganisation
+birthDate deathPlace
+director starring director imdbId
+birthDate almaMater professionField
+publisher followedBy
+author
+author followedBy
+owner address location buildingStartDate completionDate currentTenants architect
+owner architect buildingStartDate address currentTenants country
+album
+campus numberOfStudents numberOfUndergraduateStudents numberOfDoctoralStudents
+operatingOrganisation elevationAboveTheSeaLevel runwayLength
+starring author runtime gross
+discovered rotationPeriod apoapsis
+city director affiliation
+address architect owner currentTenants
+producer
+starring deathYear starring director author
+leader
+genre followedBy followedBy
+buildDate engine length
+author numberOfPages
+broadcastedBy musicComposer runtime director editor
+birthPlace nationality language
+numberOfUndergraduateStudents staff
+product
+location product product
+numberOfEmployees product product netIncome
+distributor distributor language iso6391Code
+followedBy creator
+musicSubgenre
+leaderTitle populationDensity
+city leaderTitle populationDensity populationMetro
+genre
+builder buildDate length powerType
+genre
+distributor distributor starring starring language runtime
+author publisher precededBy releaseDate
+genre musicBand precededBy followedBy production_team
+birthDate almaMater influencedBy profession
+distributor
+nationality birthPlace
+residence birthPlace residence governmentType
+birthYear author starring
+operatingOrganisation
+genre instrument
+address architect owner currentTenants
+producer
+director musicComposer runtime
+country established
+birthPlace
+genre releaseDate artist
+genre
+leaderTitle governmentType populationDensity
+starring starring director
+director producer
+subsidiary numberOfEmployees netIncome product
+musicComposer editing runtime cinematography
+birthDate almaMater profession
+buildDate length
+birthPlace birthDate birthPlace mission
+address architect buildingStartDate owner currentTenants
+birthDate height weight
+foundingDate product product
+leaderTitle
+nationality birthPlace birthDate
+leader demonym currency country course mainIngredient
+precededBy record length production
+birthPlace birthDate knownFor deathPlace
+fullName ground location league country season champions
+course country language
+elevationAboveTheSeaLevel
+followedBy genre
+director affiliation city campus wasGivenTheTechnicalCampusStatusBy academicStaffSize
+campus country numberOfStudents governmentType
+nationality language country
+stylisticOrigin
+discovered
+distributor distributor starring director director starring IdbId
+starring
+location operatingOrganisation elevationAboveTheSeaLevel runwayLength
+cityServed elevationAboveTheSeaLevel ICAOLocationIdentifier runwayName runwaySurfaceType
+author cinematography
+birthPlace spouse deathPlace ethnicGroup
+location country
+parentCompany
+birthPlace capital
+country leaderTitle populationDensity utcOffset
+birthPlace birthDate almaMater nationality deathPlace deathDate
+runtime
+followedBy followedBy musicalArtist musicalBand
+discovered absoluteMagnitude
+birthPlace almaMater
+director occupation
+isPartOf
+birthDate professionField knownFor
+birthName birthDate knownFor
+country
+elevationAboveTheSeaLevel operatingOrganisation city
+activeYearsStartYear
+region country
+birthDate youthclub club manager
+champions league season numberOfMembers ground location
+precededBy genre production time
+builder buildDate length cylinderCount
+releaseDate runtime
+location runwayLength
+epoch orbitalPeriod apoapsis periapsis absoluteMagnitude
+musicFusionGenre
+elevationAboveTheSeaLevel populationDensity utcOffset
+leader regionServed city type
+nationality spouse residence
+foundingDate location product
+nickname numberOfMembers league country
+birthDate birthPlace servedAsChiefOfTheAstronautOfficeIn deathPlace
+nationality birthPlace birthDate almaMater award
+operatingOrganisation location cityServed
+builder buildDate length
+birthDate musicComposer
+nationality birthPlace
+birthDate almaMater knownFor
+established location hasToItsWest
+birthPlace birthDate deathDate
+cityServed operatingOrganisation runwayLength ICAOLocationIdentifier
+deathPlace foundingDate
+birthPlace birthDate doctoralAdvisor
+genre recordLabel
+formerBandMember formerBandMember musicalBand
+birthPlace birthDate almaMater servedAsChiefOfTheAstronautOfficeIn deathPlace
+associatedBand/associatedMusicalArtist producer
+almaMater professionField knownFor
+birthPlace birthDate almaMater doctoralAdvisor chancellor
+discoverer orbitalPeriod apoapsis periapsis absoluteMagnitude
+leader governmentType populationDensity timeZone timeZone
+followedBy
+birthDate birthPlace nationality almaMater servedAsChiefOfTheAstronautOfficeIn deathPlace
+location industry
+birthDate knownFor
+birthDate debutTeam
+starring author IdbId
+ethnicGroup
+starring production number IdbId
+numberOfUndergraduateStudents numberOfStudents numberOfDoctoralStudents
+derivative
+deathPlace
+numberOfEmployees
+cityServed elevationAboveTheSeaLevel
+derivative
+genre genre production time
+origin activeYearsStartYear genre associatedBand/associatedMusicalArtist
+location operatingOrganisation foundedBy foundingYear
+affiliation numberOfPostgraduateStudents
+nationality birthPlace
+birthDate deathPlace deathDate
+author
+nationality birthPlace birthDate deathPlace
+activeYearsStartYear
+fullName ground location league country numberOfMembers champions
+foundationPlace foundingDate elevationAboveTheSeaLevel revenue
+birthPlace birthDate
+cityServed location operatingOrganisation elevationAboveTheSeaLevel runwayLength ICAOLocationIdentifier
+starring director writer
+discoverer birthDate
+distributor distributor starring budget
+starring runtime gross
+country
+discovered periapsis apoapsis
+background musicComposer releaseDate
+followedBy
+almaMater deathPlace country leader
+professionalField
+foundingDate product
+precededBy
+genre genre publisher
+birthName knownFor
+isPartOf
+location operatingOrganisation city elevationAboveTheSeaLevel runwayLength
+broadcastedBy editor musicComposer director producer
+nationality residence areaTotal leader
+starring director author gross
+starring starring language
+runwayName icaoLocationIdentifier
+starring starring language runtime editing
+city
+precededBy genre recordLabel recordLabel
+almaMater knownFor country
+instrument genre
+elevationAboveTheSeaLevel
+address owner
+discoverer absoluteMagnitude
+precededBy
+recordedIn
+runwayLength
+timeZone recordedIn recordedIn
+director musicComposer runtime gross
+birthDate deathPlace deathDate
+fullName ground location league champions numberOfMembers
+nickname numberOfMembers league
+releaseDate
+birthDate birthPlace nationality servedAsChiefOfTheAstronautOfficeIn award higher deathPlace
+recordLabel
+operatingOrganisation runwayLength
+musicComposer director director
+starring activeYearsStartYear starring language spokenIn
+builder buildDate cylinderCount
+birthPlace postalCode professionalField
+genre mashup
+location product
+course ingredient country demonym currency
+author influencedBy
+leader demonym currency country course ingredient region
+builder buildDate length totalProduction
+campus state affiliation
+almaMater affiliation
+isPartOf
+genre followedBy
+professionField knownFor dominated_convergence_theorem
+youthclub currentclub club manager ground
+leaderTitle country
+nationality mission
+recordIn recordIn recordtime artist
+nationality birthPlace spouse inOfficeWhilePresident successor
+birthPlace birthDate
+foundingDate
+leaderTitle governmentType populationMetro
+genre creator
+nationality birthDate mission
+location location leader leader
+numberOfPostgraduateStudents
+nationality
+birthPlace
+operatingOrganisation runwayLength
+foundingDate
+genre musicalBand genre
+starring musicComposer cinematography runtime gross
+runtime
+buildDate length powerType
+birthDate birthPlace nationality almaMater servedAsChiefOfTheAstronautOfficeIn award deathPlace
+orbitalPeriod discoverer apoapsis
+city country campus
+starring editor starring
+distributor distributor director runtime
+author releaseDate
+birthDate nationality residence
+numberOfStudents staff
+knownFor knownFor
+birthDate author
+operatingIncome
+precededBy recordLabel releaseDate runtime
+knownFor
+certification
+formerBandMember
+followedBy followedBy producer creator
+residence residence leader leader
+cityServed elevationAboveTheSeaLevel runwayName runwayLength
+location operatingOrganisation cityServed ICAOLocationIdentifier runwayName runwayLength
+postalCode city numberOfUndergraduateStudents staff
+author
+birthPlace birthDate
+leaderTitle
+campus president affiliation
+birthPlace dateOfRetirement deathPlace
+firstAired broadcastedBy city
+starring creator imdbId
+genre associatedBand/associatedMusicalArtist musicFusionGenre
+birthPlace spouse deathPlace
+municipality location state established category hasToItsSoutheast hasToItsWest
+birthDate
+youthclub height club ground currentclub
+city country campus numberOfStudents numberOfPostgraduateStudents
+anthropology professionalField
+starring director musicComposer runtime gross
+currentTenants owner
+creator starring broadcastedBy
+followedBy followedBy producer
+icaoLocationIdentifier
+leaderTitle
+occupation director
+birthPlace birthDate selectedByNasa deathPlace
+isPartOf country leaderTitle populationDensity
+height club ground currentclub manager
+genre followedBy
+birthDate deathDate
+precededBy runtime
+nationality birthPlace birthDate residence residence award
+creator starring broadcastedBy city
+releaseDate
+owner architect completionDate address currentTenants
+publisher
+established location category hasToItsNorth
+runtime
+recordLabel recordLabel
+spouse
+birthName almaMater knownFor deathPlace
+almaMater
+genre musicalBand runtime followedBy author publisher
+location operatingOrganisation elevationAboveTheSeaLevel runwayLength
+city country leader longName
+birthDate nationality occupation
+distributor distributor starring
+album
+birthName birthDate deathPlace
+knownFor
+numberOfEmployees revenue
+service
+deathDate professionField demography
+birthPlace deathPlace
+nationality birthPlace birthPlace birthDate
+extinctionDate
+musicFusionGenre
+campus country wasGivenTheTechnicalCampusStatusBy director founder
+residence leaderTitle residence
+runtime
+completionDate currentTenants
+leader
+birthPlace birthDate deathDate
+campus
+gridReference
+starring director
+height birthPlace timeZone timeZone
+followedBy
+location country operatingOrganisation runwayLength
+established location state category hasToItsSoutheast hasToItsNorth
+foundingDate location isPartOf
+genre artist
+knownFor
+birthDate deathDate
+location operatingOrganisation runwayLength
+areaTotal
+numberOfMembers league season
+genre associatedBand/associatedMusicalArtist
+genre stylisticOrigin
+birthPlace almaMater doctoralAdvisor profession
+city country numberOfPostgraduateStudents
+author runtime
+creator firstAired
+precededBy precededBy releaseDate
+builder buildDate
+birthPlace birthDate deathDate spouse birthPlace
+birthPlace discoverer
+birthName birthDate almaMater deathPlace deathDate
+campus director wasGivenTheTechnicalCampusStatusBy location founder sportsOffered
+musicComposer editing runtime
+city country
+nationality residence deathDate
+background
+campus city numberOfStudents numberOfDoctoralStudents
+discovered rotationPeriod apoapsis absoluteMagnitude
+precededBy
+runwaySurfaceType
+doctoralAdvisor knownFor
+birthDate nationality professionField
+architect location owner currentTenants
+starring starring editing
+precededBy author followedBy releaseDate timeruntime
+builder buildDate length
+numberOfEmployees foundingDate
+birthPlace birthDate occupation deathPlace
+recordLabel recordLabel releaseDate runtime
+location
+director editor musicComposer runtime releaseDate
+birthPlace ethnicGroup office_held_by_head_of_the_organization spouse
+author publisher
+ground location numberOfMembers league country champions chairmanTitle
+foundingDate numberOfLocations service
+nationality birthPlace birthDate
+birthPlace deathPlace
+leader
+publisher
+areaCode recordedIn recordedIn
+location keyPerson product manufacturer
+longName
+location
+author precededBy
+course region country
+location numberOfLocations
+birthPlace starring creator broadcastedBy city
+fullName numberOfMembers league country
+birthDate birthPlace birthPlace nationality deathPlace deathDate
+location completionDate
+discovered apoapsis absoluteMagnitude
+birthPlace birthDate
+longName
+course ingredient country demonym currency
+height youthclub club
+starring starring language runtime
+birthDate nationality influencedBy occupation
+author
+genre recordLabel recordLabel releaseDate
+youthclub club ground currentclub manager
+numberOfPostgraduateStudents staff
+address architect buildingStartDate completionDate currentTenants country
+editor
+runtime
+musicFusionGenre
+director starring
+birthDate
+location location foundingDate keyPerson product industry
+campus city
+author language
+periapsis
+activeYearsStartYear associatedBand/associatedMusicalArtist
+campus affiliation city wasGivenTheTechnicalCampusStatusBy location
+birthDate professionField demography
+elevationAboveTheSeaLevel
+postalCode
+leaderTitle isPartOf city governmentType utcOffset
+leaderTitle location populationDensity utcOffset
+genre stylisticOrigin
+established location category hasToItsNorth hasToItsWest
+birthPlace almaMater chancellor viceChancellor
+nationality religion residence capital
+genre associatedBand/associatedMusicalArtist instrument
+gross
+genre genre artist
+owner buildingStartDate address location currentTenants architect
+birthPlace bird deathPlace
+language
+residence party
+birthPlace residence award
+musicComposer
+recordedIn
+keyPerson genre genre
+city state
+country course dishVariation
+location operatingOrganisation city city runwayLength
+industry
+demonym currency country course mainIngredient dishVariation
+broadcastedBy city firstAired lastAired
+ground location league country season
+birthDate youthclub club club currentclub
+genre precededBy followedBy
+associatedBand/associatedMusicalArtist
+owner buildingStartDate location country address currentTenants architect
+child
+director editor producer runtime cinematography
+producer
+city established affiliation campus
+genre creator
+nationality birthPlace country areaTotal
+birthPlace birthDate almaMater doctoralAdvisor knownFor
+stylisticOrigin
+governmentType city populationDensity
+birthPlace birthDate knownFor
+precededBy production time
+director cinematography creator
+operatingOrganisation city elevationAboveTheSeaLevel runwayLength
+manufacturer
+birthDate almaMater
+nationality deathPlace deathPlace populationDensity
+birthPlace birthDate deathDate anthem anthem
+ceremonialCounty
+birthDate
+service
+city campus wasGivenTheTechnicalCampusStatusBy director location
+birthDate residence citizenship
+course country leader
+residence leaderTitle
+precededBy followedBy
+birthPlace doctoralAdvisor academicDiscipline knownFor academicDiscipline
+genre
+precededBy
+birthPlace birthDate residence
+ground numberOfMembers league champions
+birthPlace award
+professionField
+type
+city numberOfStudents elevationAboveTheSeaLevel
+author publisher followedBy literaryGenre
+distributor distributor service
+campus country established director wasGivenTheTechnicalCampusStatusBy location
+birthDate almaMater professionField knownFor
+region country ingredient demonym currency
+architect owner currentTenants
+musicComposer releaseDate runtime director editor publisher
+motto
+genre genre releaseDate
+precededBy genre
+location operatingOrganisation city elevationAboveTheSeaLevel runwayName
+birthPlace almaMater
+birthName birthDate birthPlace
+birthDate
+location foundationPlace foundingDate
+keyPerson
+director
+location ground numberOfMembers league season
+isPartOf country elevationAboveTheSeaLevel populationDensity populationMetro timeZone
+musicComposer runtime releaseDate director editor
+musicComposer director editor cinematography
+foundationPlace leaderTitle
+birthDate birthPlace nationality deathPlace
+location foundingDate keyPerson product industry netIncome
+numberOfPostgraduateStudents numberOfUndergraduateStudents numberOfStudents numberOfDoctoralStudents
+location operatingOrganisation elevationAboveTheSeaLevel
+areaCode
+author publisher followedBy
+birthYear starring
+birthDate deathPlace
+mean
+followedBy
+location country
+campus numberOfDoctoralStudents staff
+precededBy
+municipality location country established category hasToItsSoutheast hasToItsWest
+birthDate influencedBy country areaTotal
+country
+keyPerson
+birthPlace birthDate deathPlace
+assembly productionEndYear bodyStyle
+campus state wasGivenTheTechnicalCampusStatusBy location director founder
+birthPlace birthDate nationality almaMater servedAsChiefOfTheAstronautOfficeIn deathPlace
+genre precededBy recordLabel recordLabel
+ground numberOfMembers league country
+birthPlace birthDate deathDate
+deathPlace
+timeZone
+author releaseDate followedBy
+cityServed location elevationAboveTheSeaLevel icaoLocationIdentifier
+birthDate mission
+birthPlace director
+distributor keyPerson keyPerson starring director
+followedBy
+birthDate production
+genre associatedBand/associatedMusicalArtist
+recordLabel
+discoverer discovered absoluteMagnitude
+birthDate deathPlace
+nickname league
+youthclub club ground
+almaMater deathPlace
+elevationAboveTheSeaLevel runwayName runwayLength
+nationality birthPlace birthDate deathPlace deathDate
+country leaderTitle
+governmentType populationMetro populationDensity utcOffset
+almaMater
+fullName ground location league country numberOfMembers
+director editor cost budget runtime
+birthPlace musicComposer
+youthclub ground club manager
+birthDate birthPlace nationality servedAsChiefOfTheAstronautOfficeIn nationality selectedByNasa award deathPlace
+followedBy producer creator
+elevationAboveTheSeaLevel runwayLength
+formerBandMember recordLabel parentCompany
+populationDensity populationMetro
+birthPlace birthDate nationality residence
+author publisher literaryGenre
+birthPlace areaTotal
+distributor distributor director director author
+birthPlace birthDate deathPlace foundingDate
+isPartOf country
+precededBy followedBy followedBy
+runtime
+deathPlace foundingDate leaderTitle
+genre producer
+productionStartYear productionEndYear
+starring
+birthPlace birthDate birthPlace leaderTitle
+starring author
+leaderTitle
+campus city country governmentType
+city established campus wasGivenTheTechnicalCampusStatusBy director location
+starring starring director runtime gross
+designer dedicatedTo
+bodyStyle
+author precededBy followedBy literaryGenre literaryGenre
+precededBy followedBy genre music length
+residence residence almaMater
+elevationAboveTheSeaLevel
+established location country category hasToItsSoutheast
+cosparId
+musicComposer releaseDate editing runtime
+country numberOfPostgraduateStudents
+nationality spouse inOfficeWhilePresident office successor
+birthPlace nationality spouse
+mainIngredient dishVariation course region country demonym currency
+birthName almaMater profession deathPlace deathDate
+timeZone
+course region country currency
+timeZone UTC01:00 timeZone utcOffset
+course region country leader demonym currency
+nationality mission
+production editor cinematography
+length engine powerType
+location cityServed
+influencedBy professionField
+parentCompany
+municipality location country category
+releaseDate
+nationality birthPlace birthDate bird award deathPlace
+birthDate birthPlace award deathPlace
+city state wasGivenTheTechnicalCampusStatusBy director campus
+assembly productionStartYear
+operatingOrganisation runwayLength icaoLocationIdentifier
+longName
+broadcastedBy city starring creator lastAired
+utcOffset
+residence residence almaMater influencedBy knownFor
+state affiliation campus wasGivenTheTechnicalCampusStatusBy location
+foundingYear
+activeYearsStartYear
+spouse
+professionalField knownFor
+city founder wasGivenTheTechnicalCampusStatusBy location campus director numberOfPostgraduateStudents
+foundationPlace operatingIncome netIncome
+ingredient region country demonym currency
+course country leader
+deathDate
+creator starring broadcastedBy city
+city country
+campus country director affiliation wasGivenTheTechnicalCampusStatusBy location
+chancellor owner address location buildingStartDate currentTenants architect
+birthPlace
+recordLabel recordLabel musicalBand runtime
+campus country numberOfPostgraduateStudents numberOfUndergraduateStudents numberOfStudents
+campus numberOfDoctoralStudents
+author followedBy publisher
+birthDate citizenship
+genre recordLabel artist
+residence spouse deathDate
+precededBy runtime
+leaderTitle
+birthPlace leaderTitle
+course region
+origin activeYearsStartYear instrument associatedBand/associatedMusicalArtist genre
+location location numberOfEmployees subsidiary netIncome
+spouse spouse starring starring
+nationality birthDate
+municipality location category hasToItsNorth
+genre artist
+birthDate doctoralAdvisor profession
+production type runtime
+director starring musicComposer cinematography runtime
+musicComposer editing cinematography
+height birthDate youthclub club
+leader demonym currency country ingredient region course
+genre recordLabel
+operatingOrganisation elevationAboveTheSeaLevel runwayName runwaySurfaceType
+chancellor
+author
+firstAired broadcastedBy
+leaderTitle country populationDensity utcOffset
+nickname ground location league country numberOfMembers
+operatingIncome revenue
+residence
+nationality birthDate residence
+birthPlace deathDate
+birthPlace occupation
+language distributor distributor runtime editor
+numberOfDoctoralStudents
+occupation
+birthPlace birthDate mission
+precededBy runtime
+birthDate almaMater influencedBy occupation knownFor
+precededBy recordLabel recordedIn
+birthPlace birthDate doctoralAdvisor knownFor doctoralField knownFor
+residence residence leader leader
+birthPlace
+genre associatedBand/associatedMusicalArtist
+birthPlace
+postalCode location ICAOLocationIdentifier
+runwayLength icaoLocationIdentifier
+foundingDate type subsidiary
+orbitalPeriod discoverer discovered periapsis apoapsis absoluteMagnitude rotationPeriod
+broadcastedBy director editor
+buildDate length engine powerType
+genre followedBy recordLabel releaseDate
+origin activeYearsStartYear genre instrument associatedBand/associatedMusicalArtist
+isPartOf country elevationAboveTheSeaLevel timeZone
+broadcastedBy runtime editor director
+nationality birthDate deathDate
+operatingOrganisation runwayLength
+areaTotal
+birthPlace birthDate nationality residence
+architect location currentTenants country address
+birthPlace birthDate
+recordLabel author
+nationality capital
+nationality
+genre genre runtime
+starring broadcastedBy city
+areaTotal
+leaderTitle leader populationDensity timeZone timeZone governmentType
+genre followedBy
+birthPlace deathPlace deathDate
+genre stylisticOrigin stylisticOrigin
+isPartOf country leaderTitle elevationAboveTheSeaLevel timeZone utcOffset
+starring
+populationMetroDensity
+discovered orbitalPeriod apoapsis absoluteMagnitude
+product
+runwayLength operatingOrganisation city
+birthDate club ground
+birthPlace spouse deathDate
+precededBy recordIn recordIn runtime
+location leaderTitle
+knownFor
+instrument associatedBand/associatedMusicalArtist
+starring starring musicComposer
+location state
+musicComposer director producer
+state country
+publisher releaseDate
+nationality spouse office inOfficeWhilePresident deathPlace
+leaderTitle
+notableWork author
+director
+followedBy album
+location country operatingOrganisation elevationAboveTheSeaLevel
+manufacturer successor
+releaseDate
+debutTeam draftRound
+occupation
+nationality spouse
+isPartOf country leaderTitle
+runwayName runwaySurfaceType
+city numberOfUndergraduateStudents numberOfStudents numberOfDoctoralStudents
+genre precededBy recordLabel recordLabel
+birthPlace weight timeZone time_in_China
+keyPerson recordLabel recordLabel recordedIn
+course region country demonym currency
+author battlestar_galalactica creator record
+nationality language
+birthDate birthPlace nationality
+producer
+dishVariation course country
+leader isPartOf leaderTitle
+almaMater mission
+birthPlace birthPlace
+starring occupation
+assembly assembly productionStartYear bodyStyle
+genre precededBy recordedIn
+genre genre fado creator followedBy
+broadcastedBy firstAired lastAired starring city
+residence residence language
+nationality birthDate
+birthPlace governmentType
+starring director imdbId
+ground location league country numberOfMembers
+birthDate birthName almaMater knownFor deathPlace
+artist producer
+deathPlace starring starring
+isPartOf leaderTitle
+currentTenants location architect completionDate
+creator broadcastedBy city
+fullName ground location league season numberOfMembers champions
+country elevationAboveTheSeaLevel populationDensity timeZone
+nickname league
+knownFor
+recordLabel recordDate releaseDate
+birthPlace birthDate deathDate
+leaderTitle country citizenship
+director director author IdbId
+birthDate deathPlace deathDate deathPlace
+leaderTitle populationMetro timeZone
+inauguration
+followedBy author production_team
+associatedBand/associatedMusicalArtist activeYearsStartYear genre instrument
+numberOfUndergraduateStudents numberOfDoctoralStudents
+city affiliation wasGivenTheTechnicalCampusStatusBy
+areaTotal
+literaryGenre followedBy
+leaderTitle populationDensity utcOffset
+birthYear starring
+birthPlace birthDate almaMater doctoralAdvisor knownFor irreducible_complexity
+campus country numberOfPostgraduateStudents affiliation
+genre genre musicFusionGenre
+birthDate
+nationality birthPlace residence
+director
+city affiliation campus wasGivenTheTechnicalCampusStatusBy location
+birthPlace occupation
+birthDate birthPlace nationality deathPlace
+leaderTitle
+discoverer orbitalPeriod apoapsis absoluteMagnitude
+orbitalPeriod rotationPeriod periapsis
+genre genre artist runtime
+recordLabel recordLabel producer
+residence residence language
+foundationPlace successor manufacturer productionStartYear
+birthName starring starring deathPlace
+areaOfWater
+productionEndYear
+followedBy musicalBand production_team
+occupation
+director runtime
+precededBy recordLabel
+dishVariation course region country demonym currency
+owner address location
+numberOfUndergraduateStudents numberOfPostgraduateStudents
+publisher
+leaderTitle governmentType city utcOffset
+deathPlace
+country utcOffset
+residence
+followedBy releaseDate
+birthDate almaMater doctoralAdvisor chancellor
+genre precededBy followedBy followedBy precededBy
+child
+deathDate
+birthPlace producer
+genre precededBy recordLabel recordedIn
+elevationAboveTheSeaLevel leader city
+cityServed runwayLength
+birthPlace ethnicGroup spouse office
+officialLanguage
+en
+broadcastedBy city creator lastAired
+epoch discoverer discovered apoapsis orbitalPeriod absoluteMagnitude
+numberOfEmployees
+established location hasToItsNorth
+formerBandMember
+activeYearsStartYear director production editor
+assembly
+foundingDate
+foundedDate subsidiary operatingIndustry netIncome
+height
+genre musicalBand runtime
+activeYearsStartYear genre musicFusionGenre
+country director affiliation
+populationTotal
+birthPlace birthDate nationality deathDate
+genre releaseDate followedBy precededBy production time
+birthDate
+genre recordLabel musicalBand runtime
+birthPlace nationality deathDate
+birthPlace almaMater viceChancellor
+birthDate birthPlace nationality servedAsChiefOfTheAstronautOfficeIn occupation award deathPlace
+course region
+precededBy
+epoch discovered rotationPeriod periapsis apoapsis
+fullName ground location league country season champions
+birthPlace nationality office spouse
+influencedBy knownFor
+birthPlace residence residence award populationMetroDensity
+birthPlace
+genre precededBy author releaseDate runtime
+followedBy
+musicComposer director runtime
+product manufacturer
+recordLabel recordLabel artist
+ground location league season country
+associatedBand/associatedMusicalArtist
+language starring starring editor budget runtime
+fullName ground location league country
+regionServed country
+owner architect buildingStartDate completionDate address country currentTenants
+director producer creator musicComposer runtime
+location subsidiary product
+literaryGenre
+origin genre associatedBand/associatedMusicalArtist instrument
+starring musicComposer editing
+author precededBy releaseDate followedBy
+broadcastedBy runtime director producer
+artist producer runtime
+keyPerson foundingDate
+league season
+nationality governmentType
+orbitalPeriod
+creator
+nationality spouse birthPlace deathPlace inOfficeWhilePresident
+course dishVariation country ingredient demonym currency
+isPartOf populationDensity
+isPartOf
+nationality birthPlace
+deathDate
+areaTotal
+type
+municipality location hasToItsNorth
+director starring musicComposer runtime
+instrument associatedBand/associatedMusicalArtist genre activeYearsStartYear
+musicComposer runtime releaseDate
+precededBy genre genre production time
+birthPlace author
+absoluteMagnitude
+starring starring language distributor
+recordLabel musicalBand runtime
+leaderTitle
+operatingOrganisation location cityServed elevationAboveTheSeaLevel runwayName runwayLength
+birthDate almaMater influencedBy occupation knownFor residence
+starring
+assembly productionStartYear productionEndYear
+foundedBy distributor distributor
+nationality professionField
+city numberOfPostgraduateStudents
+author
+birthPlace
+location location manufacturer
+genre publisher
+country timeZone timeZone
