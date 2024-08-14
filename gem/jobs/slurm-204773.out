@@ -1,0 +1,22 @@
+ordering started!!!
+ordering training!
+[nltk_data] Downloading package punkt to /home/cosuji/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Traceback (most recent call last):
+  File "/spinning/cosuji/NLG_Exp/gem/jobs/../main.py", line 94, in <module>
+    trainer.train()
+  File "/spinning/cosuji/NLG_Exp/gem/training.py", line 46, in train
+    source, targets = inputs['Source'], inputs['Target']
+TypeError: list indices must be integers or slices, not str
+ordering finished!!!
+structuring started!!!
+structuring training!
+[nltk_data] Downloading package punkt to /home/cosuji/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Traceback (most recent call last):
+  File "/spinning/cosuji/NLG_Exp/gem/jobs/../main.py", line 94, in <module>
+    trainer.train()
+  File "/spinning/cosuji/NLG_Exp/gem/training.py", line 46, in train
+    source, targets = inputs['Source'], inputs['Target']
+TypeError: list indices must be integers or slices, not str
+structuring finished!!!

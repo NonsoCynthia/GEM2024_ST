@@ -1,0 +1,22 @@
+ordering started!!!
+ordering training!
+[nltk_data] Downloading package punkt to /home/cosuji/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Traceback (most recent call last):
+  File "/spinning/cosuji/NLG_Exp/gem/jobs/../main.py", line 91, in <module>
+    trainer = Trainer(generator, trainloader, validation_dataset, optimizer, epochs, batch_status, write_path, early_stop, verbose)
+  File "/spinning/cosuji/NLG_Exp/gem/training.py", line 31, in __init__
+    os.mkdir(write_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cosuji/spinning-storage/cosuji/NLG_Exp/gem/results/ordering/t5-large'
+ordering finished!!!
+structuring started!!!
+structuring training!
+[nltk_data] Downloading package punkt to /home/cosuji/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Traceback (most recent call last):
+  File "/spinning/cosuji/NLG_Exp/gem/jobs/../main.py", line 73, in <module>
+    dataset_dict = preprocess_data_(data, task)
+  File "/spinning/cosuji/NLG_Exp/gem/load_dataset.py", line 54, in preprocess_data_
+    train_df = pd.DataFrame({train["struct_in"], train["struct_out"]})
+TypeError: unhashable type: 'Series'
+structuring finished!!!
