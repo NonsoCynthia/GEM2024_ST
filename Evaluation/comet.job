@@ -1,0 +1,108 @@
+#!/bin/bash
+
+#SBATCH --gres=gpu:a100:1
+#SBATCH -p compute
+#SBATCH -J com
+#SBATCH --mem=30000
+#SBATCH -t 1-23:59:59
+
+
+source /home/cosuji/anaconda3/etc/profile.d/conda.sh
+conda activate webnlg
+
+eval_model="Unbabel/wmt23-cometkiwi-da-xl"
+afri_model="masakhane/africomet-qe-stl"
+
+
+#comet-score -s input/factual_input.txt -t DCU-ADAPT-modPB/primary/structGPT4_D2T-1-FA_en.txt DCU-ADAPT-modPB/secondary/finetunedMistral_D2T-1-FA_en.txt DCU-ADAPT-modPB/secondary/gpt4_D2T-1-FA_en.txt DCU-ADAPT-modPB/secondary/structMistral_D2T-1-FA_en.txt DCU-ADAPT-modPB/secondary/mistral_D2T-1-FA_en.txt -r references/en_reference0.txt 
+#references/en_reference1.txt references/en_reference2.txt references/en_reference3.txt references/en_reference4.txt
+
+# Loop through the references and run comet-score for factual input ENGLISH
+for ref in 0 1 2 3 4; do
+    command="comet-score -s input/factual_input.txt -t DCU-ADAPT-modPB/primary/structGPT4_D2T-1-FA_en.txt DCU-ADAPT-modPB/secondary/finetunedMistral_D2T-1-FA_en.txt DCU-ADAPT-modPB/secondary/gpt4_D2T-1-FA_en.txt DCU-ADAPT-modPB/secondary/structMistral_D2T-1-FA_en.txt DCU-ADAPT-modPB/secondary/mistral_D2T-1-FA_en.txt -r references/en_reference${ref}.txt"
+    echo "Running: ${command}"
+    eval $command > comet_factual_ref${ref}_en_output.txt 2>&1
+done
+
+# # Run comet-score for counterfactual input ENGLISH
+command="comet-score -s input/counterfactual_input.txt -t DCU-ADAPT-modPB/primary/structGPT4_D2T-1-CFA_en.txt DCU-ADAPT-modPB/secondary/finetunedMistral_D2T-1-CFA_en.txt DCU-ADAPT-modPB/secondary/gpt4_D2T-1-CFA_en.txt DCU-ADAPT-modPB/secondary/structMistral_D2T-1-CFA_en.txt DCU-ADAPT-modPB/secondary/mistral_D2T-1-CFA_en.txt --model ${eval_model}"
+echo "Running: ${command}"
+eval $command > comet_counterfactual_en_output.txt 2>&1
+
+# # Run comet-score for fictional input ENGLISH
+command="comet-score -s input/fictional_input.txt -t DCU-ADAPT-modPB/primary/structGPT4_D2T-1-FI_en.txt DCU-ADAPT-modPB/secondary/finetunedMistral_D2T-1-FI_en.txt DCU-ADAPT-modPB/secondary/gpt4_D2T-1-FI_en.txt DCU-ADAPT-modPB/secondary/structMistral_D2T-1-FI_en.txt DCU-ADAPT-modPB/secondary/mistral_D2T-1-FI_en.txt --model ${eval_model}"
+echo "Running: ${command}"
+eval $command > comet_fictional_en_output.txt 2>&1
+
+
+# # Loop through the references and run comet-score for factual input ARABIC
+for ref in 0 1 2 3 4; do
+	command="comet-score -s references/en_reference${ref}.txt -t DCU-ADAPT-modPB/primary/structGPT4_D2T-1-FA_ar.txt DCU-ADAPT-modPB/secondary/finetunedMistral_D2T-1-FA_ar.txt DCU-ADAPT-modPB/secondary/gpt4_D2T-1-FA_ar.txt DCU-ADAPT-modPB/secondary/structMistral_D2T-1-FA_ar.txt DCU-ADAPT-modPB/secondary/mistral_D2T-1-FA_ar.txt --model ${eval_model}"
+	echo "Running: ${command}"
+       	eval $command > comet_factual_ref${ref}_ar_output.txt 2>&1
+done
+
+# # Run comet-score for counterfactual input ARABIC
+command="comet-score -s input/counterfactual_input.txt -t DCU-ADAPT-modPB/primary/structGPT4_D2T-1-CFA_ar.txt DCU-ADAPT-modPB/secondary/finetunedMistral_D2T-1-CFA_ar.txt DCU-ADAPT-modPB/secondary/gpt4_D2T-1-CFA_ar.txt DCU-ADAPT-modPB/secondary/structMistral_D2T-1-CFA_ar.txt DCU-ADAPT-modPB/secondary/mistral_D2T-1-CFA_ar.txt --model ${eval_model}"
+echo "Running: ${command}"
+eval $command > comet_counterfactual_ar_output.txt 2>&1
+
+# # Run comet-score for fictional input ARABIC
+command="comet-score -s input/fictional_input.txt -t DCU-ADAPT-modPB/primary/structGPT4_D2T-1-FI_ar.txt DCU-ADAPT-modPB/secondary/finetunedMistral_D2T-1-FI_ar.txt DCU-ADAPT-modPB/secondary/gpt4_D2T-1-FI_ar.txt DCU-ADAPT-modPB/secondary/structMistral_D2T-1-FI_ar.txt DCU-ADAPT-modPB/secondary/mistral_D2T-1-FI_ar.txt --model ${eval_model}"
+echo "Running: ${command}"
+eval $command > comet_fictional_ar_output.txt 2>&1
+
+
+# # Loop through the references and run comet-score for factual input HINDI
+for ref in 0 1 2 3 4; do
+    command="comet-score -s references/en_reference${ref}.txt -t DCU-ADAPT-modPB/primary/structGPT4_D2T-1-FA_hi.txt DCU-ADAPT-modPB/secondary/finetunedMistral_D2T-1-FA_hi.txt DCU-ADAPT-modPB/secondary/gpt4_D2T-1-FA_hi.txt DCU-ADAPT-modPB/secondary/structMistral_D2T-1-FA_hi.txt DCU-ADAPT-modPB/secondary/mistral_D2T-1-FA_hi.txt --model ${eval_model}"
+    echo "Running: ${command}"
+    eval $command > comet_factual_ref${ref}_hi_output.txt 2>&1
+done
+
+# # Run comet-score for counterfactual input HINDI
+command="comet-score -s input/counterfactual_input.txt -t DCU-ADAPT-modPB/primary/structGPT4_D2T-1-CFA_hi.txt DCU-ADAPT-modPB/secondary/finetunedMistral_D2T-1-CFA_hi.txt DCU-ADAPT-modPB/secondary/gpt4_D2T-1-CFA_hi.txt DCU-ADAPT-modPB/secondary/structMistral_D2T-1-CFA_hi.txt DCU-ADAPT-modPB/secondary/mistral_D2T-1-CFA_hi.txt --model ${eval_model}"
+echo "Running: ${command}"
+eval $command > comet_counterfactual_hi_output.txt 2>&1
+
+# # Run comet-score for fictional input HINDI
+command="comet-score -s input/fictional_input.txt -t DCU-ADAPT-modPB/primary/structGPT4_D2T-1-FI_hi.txt DCU-ADAPT-modPB/secondary/finetunedMistral_D2T-1-FI_hi.txt DCU-ADAPT-modPB/secondary/gpt4_D2T-1-FI_hi.txt DCU-ADAPT-modPB/secondary/structMistral_D2T-1-FI_hi.txt DCU-ADAPT-modPB/secondary/mistral_D2T-1-FI_hi.txt --model ${eval_model}"
+echo "Running: ${command}"
+eval $command > comet_fictional_hi_output.txt 2>&1
+
+
+# # Loop through the references and run comet-score for factual input KOREAN
+for ref in 0 1 2 3 4; do
+    command="comet-score -s references/en_reference${ref}.txt -t DCU-ADAPT-modPB/primary/structGPT4_D2T-1-FA_ko.txt DCU-ADAPT-modPB/secondary/finetunedMistral_D2T-1-FA_ko.txt DCU-ADAPT-modPB/secondary/gpt4_D2T-1-FA_ko.txt DCU-ADAPT-modPB/secondary/structMistral_D2T-1-FA_ko.txt DCU-ADAPT-modPB/secondary/mistral_D2T-1-FA_ko.txt --model ${eval_model}"
+    echo "Running: ${command}"
+    eval $command > comet_factual_ref${ref}_ko_output.txt 2>&1
+done
+
+# # Run comet-score for counterfactual input KOREAN
+command="comet-score -s input/counterfactual_input.txt -t DCU-ADAPT-modPB/primary/structGPT4_D2T-1-CFA_ko.txt DCU-ADAPT-modPB/secondary/finetunedMistral_D2T-1-CFA_ko.txt DCU-ADAPT-modPB/secondary/gpt4_D2T-1-CFA_ko.txt DCU-ADAPT-modPB/secondary/structMistral_D2T-1-CFA_ko.txt DCU-ADAPT-modPB/secondary/mistral_D2T-1-CFA_ko.txt --model ${eval_model}"
+echo "Running: ${command}"
+eval $command > comet_counterfactual_ko_output.txt 2>&1
+
+# # Run comet-score for fictional input KOREAN
+command="comet-score -s input/fictional_input.txt -t DCU-ADAPT-modPB/primary/structGPT4_D2T-1-FI_ko.txt DCU-ADAPT-modPB/secondary/finetunedMistral_D2T-1-FI_ko.txt DCU-ADAPT-modPB/secondary/gpt4_D2T-1-FI_ko.txt DCU-ADAPT-modPB/secondary/structMistral_D2T-1-FI_ko.txt DCU-ADAPT-modPB/secondary/mistral_D2T-1-FI_ko.txt --model ${eval_model}"
+echo "Running: ${command}"
+eval $command > comet_fictional_ko_output.txt 2>&1
+
+
+# # Loop through the references and run comet-score for factual input SWAHILI
+for ref in 0 1 2 3 4; do
+    command="comet-score -s references/en_reference${ref}.txt -t DCU-ADAPT-modPB/primary/structGPT4_D2T-1-FA_sw.txt DCU-ADAPT-modPB/secondary/finetunedMistral_D2T-1-FA_sw.txt DCU-ADAPT-modPB/secondary/gpt4_D2T-1-FA_sw.txt DCU-ADAPT-modPB/secondary/structMistral_D2T-1-FA_sw.txt DCU-ADAPT-modPB/secondary/mistral_D2T-1-FA_sw.txt --model ${afri_model}"
+    echo "Running: ${command}"
+    eval $command > comet_factual_ref${ref}_sw_output.txt 2>&1
+done
+
+# # Run comet-score for counterfactual input SWAHILI
+command="comet-score -s input/counterfactual_input.txt -t DCU-ADAPT-modPB/primary/structGPT4_D2T-1-CFA_sw.txt DCU-ADAPT-modPB/secondary/finetunedMistral_D2T-1-CFA_sw.txt DCU-ADAPT-modPB/secondary/gpt4_D2T-1-CFA_sw.txt DCU-ADAPT-modPB/secondary/structMistral_D2T-1-CFA_sw.txt DCU-ADAPT-modPB/secondary/mistral_D2T-1-CFA_sw.txt --model ${afri_model}"
+echo "Running: ${command}"
+eval $command > comet_counterfactual_sw_output.txt 2>&1
+
+# # Run comet-score for fictional input SWAHILI
+command="comet-score -s input/fictional_input.txt -t DCU-ADAPT-modPB/primary/structGPT4_D2T-1-FI_sw.txt DCU-ADAPT-modPB/secondary/finetunedMistral_D2T-1-FI_sw.txt DCU-ADAPT-modPB/secondary/gpt4_D2T-1-FI_sw.txt DCU-ADAPT-modPB/secondary/structMistral_D2T-1-FI_sw.txt DCU-ADAPT-modPB/secondary/mistral_D2T-1-FI_sw.txt --model ${afri_model}"
+echo "Running: ${command}"
+eval $command > comet_fictional_sw_output.txt 2>&1
+
