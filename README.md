@@ -1,7 +1,5 @@
 # GEM2024_ST
 
-Experimental code and artefacts for our GEM 2024 Shared Task submission paper:
-
 DCU-ADAPT-modPB at the GEM’24 Data-to-Text Generation Task: Model Hybridisation for Pipeline Data-to-Text Natural Language Generation  
 https://aclanthology.org/2024.inlg-genchal.7/
 
