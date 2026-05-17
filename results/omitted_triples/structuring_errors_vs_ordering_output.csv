@@ -1,0 +1,4 @@
+added_pct,dataset,examples_with_additions,examples_with_additions_pct,examples_with_omissions,examples_with_omissions_pct,num_examples,omitted_pct,total_added_triples,total_omitted_triples,total_source_triples
+0.27,counterfactual,14,0.79,6,0.34,1779,0.12,14,6,5110
+0.16,factual,8,0.45,6,0.34,1779,0.12,8,6,5047
+0.06,fictional,3,0.17,7,0.39,1779,0.14,3,7,5126

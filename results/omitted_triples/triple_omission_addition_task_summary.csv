@@ -1,0 +1,4 @@
+added_triples_pct_vs_source,comparison_basis,examples_with_additions,examples_with_additions_pct,examples_with_omissions,examples_with_omissions_pct,num_examples,omitted_triples_pct,task,total_added_triples,total_matched_source_triples,total_omitted_triples,total_predicted_predicates,total_source_triples
+6.38,webnlg17_input,758,14.2,1289,24.15,5337,11.45,ordering,1080,14980,1937,16060,16917
+0.16,ordering_output,25,0.47,19,0.36,5337,0.12,structuring,25,15264,19,15289,15283
+0.15,webnlg17_input,25,0.47,1081,20.25,5337,9.77,structuring,25,15264,1653,15289,16917
