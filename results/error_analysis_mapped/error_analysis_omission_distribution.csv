@@ -1,0 +1,10 @@
+analysis,dataset,omitted_0,omitted_1,omitted_2,omitted_3,omitted_4,omitted_5,omitted_6,omitted_7,total_affected
+ordering_vs_input,FA,1395,244,93,31,11,5,0,0,384
+ordering_vs_input,FI,1446,212,83,20,15,3,0,0,333
+ordering_vs_input,CFA,1427,227,86,28,9,2,0,0,352
+structuring_vs_ordering,FA,1776,3,0,0,0,0,0,0,3
+structuring_vs_ordering,FI,1775,4,0,0,0,0,0,0,4
+structuring_vs_ordering,CFA,1775,4,0,0,0,0,0,0,4
+structuring_vs_input,FA,1394,243,95,31,11,5,0,0,385
+structuring_vs_input,FI,1444,214,81,22,15,3,0,0,335
+structuring_vs_input,CFA,1424,230,86,27,10,2,0,0,355

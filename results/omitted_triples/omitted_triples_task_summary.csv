@@ -1,3 +1,0 @@
-examples_with_omissions,examples_with_omissions_pct,num_examples,omitted_triples_pct,task,total_input_triples,total_matched_triples,total_omitted_triples,total_predicted_predicates
-1904,22.34,8524,10.02,ordering,27480,24726,2754,26325
-88,1.03,8524,0.35,structuring,25118,25030,88,25132

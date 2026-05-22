@@ -1,0 +1,4 @@
+analysis,n_examples,total_source,total_predicted,total_omitted,omitted_pct,total_added,added_pct,examples_w_omissions,omissions_pct,examples_w_additions,additions_pct
+ordering_vs_input,5337,16917,15283,1634,9.66,0,0.0,1069,20.03,0,0.0
+structuring_vs_input,5337,16917,15272,1645,9.72,0,0.0,1075,20.14,0,0.0
+structuring_vs_ordering,5337,15283,15272,11,0.07,0,0.0,11,0.21,0,0.0

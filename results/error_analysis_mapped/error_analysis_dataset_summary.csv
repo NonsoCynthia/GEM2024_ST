@@ -1,0 +1,10 @@
+dataset,analysis,n_examples,total_source,total_predicted,total_omitted,omitted_pct,total_added,added_pct,examples_w_omissions,omissions_pct,examples_w_additions,additions_pct
+CFA,ordering_vs_input,1779,5639,5110,529,9.38,0,0.0,352,19.79,0,0.0
+CFA,structuring_vs_input,1779,5639,5106,533,9.45,0,0.0,355,19.96,0,0.0
+CFA,structuring_vs_ordering,1779,5110,5106,4,0.08,0,0.0,4,0.22,0,0.0
+FA,ordering_vs_input,1779,5639,5047,592,10.5,0,0.0,384,21.59,0,0.0
+FA,structuring_vs_input,1779,5639,5044,595,10.55,0,0.0,385,21.64,0,0.0
+FA,structuring_vs_ordering,1779,5047,5044,3,0.06,0,0.0,3,0.17,0,0.0
+FI,ordering_vs_input,1779,5639,5126,513,9.1,0,0.0,333,18.72,0,0.0
+FI,structuring_vs_input,1779,5639,5122,517,9.17,0,0.0,335,18.83,0,0.0
+FI,structuring_vs_ordering,1779,5126,5122,4,0.08,0,0.0,4,0.22,0,0.0
